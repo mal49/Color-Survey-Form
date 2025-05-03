@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Preferences Survey</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barriecito&family=Borel&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form class="container" id="myForm">
+        <h1>Color Preferences Survey</h1>
+
+        <div class="question">
+            <label>1. What is your favourite color?</label>
+            <input type="text" name="favourite-color">
+        </div>
+
+        <div class="question">
+            <label>2. What color you dislike the most?</label>
+            <input type="text" name="dislike-color">
+        </div>
+
+        <div class="question">
+            <label>3. Which of these colors do you wear most often?.</label>
+            <div class="options">
+                <label><input type="radio" name="wear-color" value="Black">Black</label>
+                <label><input type="radio" name="wear-color" value="White">White</label>
+                <label><input type="radio" name="wear-color" value="Blue">Blue</label>
+                <label><input type="radio" name="wear-color" value="Gray">Gray</label>
+                <label><input type="radio" name="wear-color" value="Red">Red</label>
+                <label><input type="radio" name="wear-color" value="Green">Green</label>
+                <label><input type="text" name="wear-color-other" placeholder="Other"></label>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>4. How does the color red make you feel?</label>
+            <select name="red-feel">
+                <option value="Energectic">Energetic</option>
+                <option value="Angry">Angry</option>
+                <option value="Romance">Romance</option>
+                <option value="Uncomforable">Uncomforable</option>
+                <option value="Neutral">Neutral</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label>5. Do you associate specific colors with seasons? If so, which ones?</label>
+            <input type="text" name="color-season">
+        </div>
+
+        <div class="question">
+            <label>6. Which of the following colors would you choose for a bedroom wall?</label>
+            <div class="options">
+                <label><input type="radio" name="wall-color" value="Soft-blue">Soft Blue</label>
+                <label><input type="radio" name="wall-color" value="Light-gray">Light Gray</label>
+                <label><input type="radio" name="wall-color" value="White">White</label>
+                <label><input type="radio" name="wall-color" value="Pale-green">Pale Green</label>
+                <label><input type="radio" name="wall-color" value="Warm-beige">Warm Beige</label>
+                <label><input type="text" name="wall-color-other" placeholder="Other"></label>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>7. What color do you associate with happiness?</label>
+            <input type="text" name="happy-color">
+        </div>
+
+        <div class="question">
+            <label>8. Choose the color combination you find most appealing:</label>
+            <select name="appeal-color">
+                <option value="blue-white">Blue & White</option>
+                <option value="black-gold">Black & Gold</option>
+                <option value="pink-gray">Pink & Gray</option>
+                <option value="red-black">Red & Black</option>
+                <option value="green-brown">Green & Brown</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label>9. Have your color preferences changes over time? If yes, how?</label>
+            <textarea name="preferences-changes" placeholder="type here.."></textarea>
+        </div>
+
+        <div class="question">
+            <label>10. What color do you think best represents your personality? Why?</label>
+            <textarea name="personality-color" placeholder="type here.."></textarea>
+        </div>
+
+        <div class="question">
+            <label>11. Which color would you choose for a car?</label>
+            <div class="options">
+                <label><input type="radio" name="car-color" value="Black">Black</label>
+                <label><input type="radio" name="car-color" value="White">White</label>
+                <label><input type="radio" name="car-color" value="Silver">Silver</label>
+                <label><input type="radio" name="car-color" value="Red">Red</label>
+                <label><input type="radio" name="car-color" value="Blue">Blue</label>
+                <label><input type="text" name="car-color-other" placeholder="Other"></label>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>12. Doy you believe colors can influence your mood?</label>
+            <select name="color-mood">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Not-sure">Not sure</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label>13. If you had to describe sadness with a color, whihc would it be?</label>
+            <input type="text" name="sad-color">
+        </div>
+
+        <div class="question">
+            <label>14. Which color do you associate with luxury?</label>
+            <div class="options">
+                <label><input type="radio" name="luxury-color" value="gold">Gold</label>
+                <label><input type="radio" name="luxury-color" value="Black">Black</label>
+                <label><input type="radio" name="luxury-color" value="Silver">Silver</label>
+                <label><input type="radio" name="luxury-color" value="Navy-blue">Navy Blue</label>
+                <label><input type="text" name="luxury-color-other" placeholder="Other"></label>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>15. What colors do you typically use in your home décor?</label>
+            <input type="text" name="home-color">
+        </div>
+
+        <div class="question">
+            <label>16. Which of these color palettes do you prefer?</label>
+            <select name="color-palletes">
+                <option value="earth-tones">Earth tones (brown, green, beiges)</option>
+                <option value="pastels">Pastels (light pinks, blues, purples)</option>
+                <option value="neutrals">Neutrals (black, white, gray)</option>
+                <option value="brights">Brights (red, yellow, turquoise)</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label>17. Do you use specific colors when journaling or studying to stay focused?</label>
+            <select name="focus-color">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="not-applicable">Not applicable</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label>18. Do you associate certain colors with specific memories or people?</label>
+            <input type="text" name="color-memories">
+        </div>
+
+        <div class="question">
+            <label>19. What color do you find most calming?</label>
+            <input type="text" name="calm-color">
+        </div>
+
+        <div class="question">
+            <label>20. On scale of 1 to 10, how important are colors in you daily life?</label>
+            <div class="scale-container">
+                <input type="range" name="color-scale" min="1" max="10" step="0.01" id="range" value="5">
+                <label for="range">5</label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
