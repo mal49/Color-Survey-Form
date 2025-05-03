@@ -1,9 +1,9 @@
 # Survey Form
 
-![Image](../img/firefox_QTpwoO2EkN.gif)
+![Image](firefox_QTpwoO2EkN.gif)
 *Added range slider for rating*
 
-![Image](../img/firefox_HplwnoP8VX.gif)
+![Image](firefox_HplwnoP8VX.gif)
 *Added an alert box for submit button*
 
 ![Image](../img/code3.png)
