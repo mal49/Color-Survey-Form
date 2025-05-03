@@ -6,7 +6,7 @@
 ![Image](firefox_HplwnoP8VX.gif)
 *Added an alert box for submit button*
 
-![Image](../img/code3.png)
+![Image](code3.png)
 *JavaScript code*
 
 ## JavaScript Features
