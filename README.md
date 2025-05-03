@@ -39,5 +39,5 @@
    * Prevents page reload on form submission
    * Shows a success popup using [**SweetAlert**](https://sweetalert2.github.io/)
 
->**NOTE:**
+> [!NOTE]
 > The survey page can be access [**here**](https://mal49.github.io/Color-Survey-Form/) and the code can be access in [**Github**](https://github.com/mal49/Color-Survey-Form)
